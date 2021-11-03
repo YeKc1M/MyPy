@@ -27,10 +27,41 @@ def practice2():
         print(current)
         i += 1
 
+def practice3():
+    n = int(input())
+    i = 0
+    l = list()
+    while i < n:
+        l.append(i)
+        i += 1
+    print(l)
+
+def practice4():
+    start = int(input())
+    end = int(input())
+    l = list()
+    while start < end:
+        l.append(start)
+        start += 1
+    print(l)
+
+def practice5():
+    start = int(input())
+    end = int(input())
+    step = int(input())
+    l = list()
+    while start < end:
+        l.append(start)
+        start += step
+    print(l)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # practice1()
-    practice2()
+    # practice2()
+    # practice3()
+    # practice4()
+    practice5()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
