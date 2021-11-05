@@ -55,13 +55,28 @@ def practice5():
         start += step
     print(l)
 
+def practice6():
+    n = int(input())
+    i = 0
+    l = list()
+    while i < n:
+        if i == 0:
+            l.append(0)
+        elif i == 1:
+            l.append(1)
+        else:
+            l.append(l[i - 1] + l[i - 2])
+        i += 1
+    print(l)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # practice1()
     # practice2()
     # practice3()
     # practice4()
-    practice5()
+    # practice5()
+    practice6()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
